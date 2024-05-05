@@ -1561,3 +1561,47 @@ input {
   font-size: 16px;
 }
 /*End*/
+/*new task*/
+.steps-container{
+  width: 43px;
+  height: 33px;
+  background-color:#D15E7D;
+}
+.importance-container p{
+  text-align: center;
+  padding: 10px 0px;
+  font-weight: 700;
+  font-family: "League Spartan", sans-serif;
+  font-size: 16px;
+}
+.importance-container-circle{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #F20000;
+}
+.importance-container-circle2{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #FFF84B;
+}
+.importance-container-circle3{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #79EC92;
+}
+.importance-container-heading p{
+  font-weight: 700;
+  font-family: "League Spartan", sans-serif;
+  font-size: 16px;
+}
+.btnSaveImportance{
+  padding: 30px 60px;
+  border: none;
+  border-radius: 5px;
+  background-color: #87286E;
+  cursor: pointer;
+}
+/*End*/
