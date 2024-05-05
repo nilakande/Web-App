@@ -528,7 +528,7 @@ font-size:13px;
 }
 .img-box9 {
     background: #87286E;
-    padding: 30px;
+    padding: 50px 30px;
     line-height: 2;
     color: white;
     border-radius: 15px;
@@ -569,15 +569,14 @@ font-size:13px;
     border-radius: 30px;
 }
 .pagebtn7{
+    color: #fff;
     background: #4CADC2;
     border: none;
-    padding: 10px 150px;
-    border-radius: 30px;
-    display: flex;
-    margin: auto;
-    margin-top: 40px;
-    margin-bottom: 50px;
-    color: #fff;
+    padding: 10px 100px;
+    border-radius: 10px;
+    cursor: pointer;
+    
+    
 	}
 .ultimate {
     background: #D15E7D;
