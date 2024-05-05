@@ -39,7 +39,7 @@ nav ul li a:not(:only-child):after {
 }
 
 nav ul li ul li {
-  min-width: 190px;
+  min-width: 112px;
 }
 
 nav ul li ul li a {
@@ -1076,19 +1076,15 @@ input {
   position: absolute;
   z-index: 100;
   top: 110%;
-  /* left: 50%; */
-  left: 32%;
   width: 100%;
-  height: auto;
-  padding: 20px 15px;
-  border-radius: 0.25rem;
+   border-radius: 0.25rem;
   border-top: 2px solid var(--color);
   background-color: #fff;
   box-shadow: var(--shadow-medium);
   opacity: 0;
   visibility: hidden;
   transition: all 0.35s ease-in-out;
-  transform: translateX(-50%);
+  transform: translateX(-4%);
 }
 
 .darkmode .submenu {
@@ -1193,7 +1189,7 @@ input {
 }
 
 .submenu .submenu__inner {
-  width: 25%;
+  width: 0%;
   padding: 0 15px;
 }
 
