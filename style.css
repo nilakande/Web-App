@@ -353,7 +353,7 @@ header.masthead h1 {
     background-color: #4CADC2;
     border-radius: 50px;
     color: white;
-    padding: 77px;
+    padding: 17px 57px;
     width: 1036px;
     display: flex;
     margin: auto;
@@ -368,6 +368,7 @@ header.masthead h1 {
 }
 .footer {
 	background-color: #fff8f8;
+  padding:30px;
 }
 
 .container {
