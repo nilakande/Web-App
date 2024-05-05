@@ -316,7 +316,7 @@ h5 {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 30px;
+  border-radius: 15px;
   margin: 50px 0px;
 }
 
@@ -546,7 +546,7 @@ ul {
   background: #4CADC2;
   border-radius: 10px;
   color: white;
-  padding: 10px 150px;
+  padding: 10px 140px;
   margin-bottom: 30px;
 }
 
