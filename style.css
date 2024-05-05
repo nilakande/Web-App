@@ -524,7 +524,7 @@ font-size:13px;
     margin: 50px 0px 100px;
 }
 .loginslider img{
-	width:130px;
+	width:60px;
 }
 .img-box9 {
     background: #87286E;
@@ -534,18 +534,33 @@ font-size:13px;
     border-radius: 40px;
     margin-top: 134px;
 }
+/* for sign in form*/
+#feominput{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+/*End*/
 #feominput button, input{
-	background-color: #F2F2F2;
+	  background-color: #F2F2F2;
     padding-left: 16px;
     width: 382px;
     border: none;
-    border-radius: 40px;
+    border-radius: 10px;
     padding: 15px;
-	margin:10px;
+	  margin:10px;
 }
-
+#feominput button{
+	cursor: pointer;
+  color: #fff;
+  background-color: #4CADC2;
+  width: 180px;
+  border-radius: 5px;
+}
 .loginslider{
-	    margin-bottom: 76px;
+  padding: 40px 20px;
+	margin: 30px 20px;
 }
 .text7 {
     background: #F2F2F2;
