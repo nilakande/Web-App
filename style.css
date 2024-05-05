@@ -1045,6 +1045,7 @@ input {
   font-weight: 500;
   text-transform: capitalize;
   transition: all 0.25s ease;
+  text-decoration: none;
 }
 
 @media (max-width: 766px) {
