@@ -1142,7 +1142,7 @@ input {
   .submenu.megamenu__image {
     display: flex;
     flex-wrap: wrap;
-    max-width: 19%;
+    max-width: 14%;
     height: auto;
     margin: 0 auto;
   }
