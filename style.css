@@ -458,15 +458,15 @@ font-size:13px;
 	font-size:22px;
 }
 #Supercharge{
-    padding: 60px;
+    padding: 30px 50px;
     background: #87286E;
-    border-radius: 60px;
+    border-radius: 15px;
     color: white;
 }
 #buttonip {
     border: none;
     background: #87286E;
-    border-radius: 60px;
+    border-radius: 10px;
     color: white;
     padding: 10px 60px;
 }
