@@ -336,19 +336,24 @@ h5 {
 }
 
 .full-width-image3 {
-  position: relative;
-  height: 427px;
-  background-image: url('./image/image 1.png');
+  /* position: relative; */
+  /* height: 250px; */
+  /* background-image: url('./image/image 1.png'); */
   /* background-size: cover; */
-  background-position: center;
+  /* background-position: center; */
+  padding: 20px;
+  margin: 10px;
   color: white;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 30px;
-  margin: 50px 0px;
-  background-repeat: no-repeat;
+  /* border-radius: 30px;
+  margin: 50px 0px; */
+  /* background-repeat: no-repeat; */
+}
+.full-width-image3 img{
+  width: 140px;
 }
 
 .full-width-image7 {
@@ -548,9 +553,9 @@ ul {
 #pageebtn1 {
   border: none;
   background: #87286E;
-  border-radius: 60px;
+  border-radius: 15px;
   color: white;
-  padding: 10px 150px;
+  padding: 10px 100px;
   margin-bottom: 30px;
   margin-top: 70px;
 }
@@ -558,20 +563,22 @@ ul {
 .pagebtn4 {
   border: none;
   background: #87286E;
-  border-radius: 60px;
+  border-radius: 15px;
   color: white;
-  padding: 10px 104px;
+  padding: 10px 50px;
   margin: 40px;
 }
 
 #pageebtn2 {
   border: none;
   background: #87286E;
-  border-radius: 60px;
+  border-radius: 15px;
   color: white;
-  padding: 10px 98px;
+  padding: 10px 50px;
   margin-bottom: 101px;
   margin-top: 70px;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 .button-container {
@@ -629,7 +636,19 @@ input {
   margin: 10px;
 }
 
-#feominput button {
+#feominput button{
+  cursor: pointer;
+  color: #fff;
+  background-color: #4CADC2;
+  width: 180px;
+  border-radius: 5px;
+}
+#feominput a{
+  background-color: #F2F2F2;
+  width: 382px;
+  border: none;
+  padding: 10px;
+  margin: 10px;
   cursor: pointer;
   color: #fff;
   background-color: #4CADC2;
@@ -1483,3 +1502,62 @@ input {
     display: inline-grid;
   }
 }
+/*For contact form */
+.contact{
+  margin: 20px 10px;
+  padding:10px
+}
+.contact-header{
+  padding: 20px 0px;
+}
+.contact h3{
+  text-align: center;
+  font-weight: 600;
+  font-size:35px;
+  font-family: "League Spartan", sans-serif;
+}
+.contact .contact-subtext{
+  text-align: center;
+}
+.contact button{
+  
+    border: none;
+    background: #4CADC2;
+    border-radius: 15px;
+    color: white;
+    padding: 10px 35px;
+}
+.contact label{
+  font-weight: 700;
+  font-family: "League Spartan", sans-serif;
+  font-size: 20px;
+}
+.contact .txtbox{
+  background-color: #F2F2F2;
+  border: 1px solid #F2F2F2;
+}
+.contact form{
+  max-width: 680px;
+}
+.preferred-contact-container{
+  padding: 0px 0px 0px 30px;
+  position: relative;
+  left: 20px;
+}
+.contact .lblchkbox{
+  font-weight: 700;
+  font-family: "League Spartan", sans-serif;
+  font-size: 17px;
+}
+.contact input[type=checkbox]{
+  zoom:1.4;
+}
+.contact .contact-button-container{
+  padding:10px 0px;
+}
+.lblPreferred{
+  font-weight: 700;
+  font-family: "League Spartan", sans-serif;
+  font-size: 16px;
+}
+/*End*/
