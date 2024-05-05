@@ -4,7 +4,7 @@ nav {
     display: flex;
     text-align: center;
     justify-content: center;
-	border-radius:40px;
+	  border-radius:40px;
 
 }
 .nav-list{
@@ -88,13 +88,14 @@ header.masthead h1 {
 	font-size:25px;
 }
 #dwoload {
+  text-decoration: none;
     background: #D15E7D;
     border: none;
     padding: 15px 67px;
     border-radius: 20px;
     color: #fff;
     margin: auto;
-    display: flex;
+  /*display: flex;*/
 }
 @media (max-width: 400px){
 
@@ -344,7 +345,7 @@ header.masthead h1 {
     color: white;
     padding: 30px;
     text-align: center;
-    border-radius: 84px;
+    border-radius: 15px;
     margin-top: 30px;
     width: 463px;
 }
@@ -736,8 +737,6 @@ font-size:13px;
 		text-align:Center;
 }
 }
-
-0
 .navbar .navbar__right {
   display: flex;
   flex: 0 0 17%;
@@ -982,7 +981,7 @@ font-size:13px;
   .submenu.megamenu__text, .submenu.megamenu__image {
     display: flex;
     flex-wrap: wrap;
-    max-width: 95%;
+    max-width: 35%;
     height: auto;
     margin: 0 auto;
   }
@@ -1210,6 +1209,17 @@ font-size:13px;
     border-radius: 15px;
     width: 132px !important;
     padding: 9px;
+    margin: 0px 3px;
+    text-decoration: none;
+}
+#signup {
+  text-decoration: none;
+  background: #4CADC2 !important;
+  color: #fff;
+  border-radius: 15px;
+  width: 132px !important;
+  padding: 9px;
+  margin: 0px 3px;
 }
 @media (max-width: 450px) {
 .headimg img {
