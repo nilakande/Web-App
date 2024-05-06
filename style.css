@@ -1766,3 +1766,117 @@ ul {
   width: 250px;
 }
 /*end*/
+/*for Video player*/
+:root {
+  --plyr-color-main: #ccc;
+}
+
+.video-player-container {
+  display: block;
+  position: relative;
+  padding: 50px 15px;
+  overflow: hidden;
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.video-player-container button.plyr__control.plyr__control--overlaid {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: block;
+  transform: translate(-50%,-50%);
+  width: 100px;
+  height: 100px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  transition: 0.3s all ease-in-out;
+  -webkit-transition: 0.3s all ease-in-out;
+  z-index: 5;
+  background-color: rgba(0,0,0,.20)!important;
+  padding: 0;
+}
+
+.video-player-container button.plyr__control.plyr__control--overlaid:before {
+  position: absolute;
+  content: '';
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 0;
+  height: 0;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 25px solid #fff;
+}
+
+.video-player-container .plyr__control--overlaid svg {
+  display: none;
+}
+
+.video-player-container .plyr--video .plyr__controls {
+  opacity: 0;
+}
+
+.video-player-container:hover .plyr--video .plyr__controls {
+  opacity: 1!important;
+}
+
+.video-player-container .plyr__video-wrapper {
+  display: block;
+  position: relative;
+  background-color: transparent;
+  aspect-ratio : 1280 / 720 !important;
+}
+
+.video-player-container .plyr__video-wrapper:after {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,.20);
+  z-index: 2;
+}
+
+.video-player-container .plyr--playing .plyr__video-wrapper:after {
+  opacity: 0;
+}
+
+
+.video-player-container .plyr__poster {
+  background-size: cover;
+}
+
+.video-player-container:hover button.plyr__control.plyr__control--overlaid {
+  opacity: .65;
+}
+
+#video-player canvas.data-poster {
+  border: 0;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0;
+  visibility: hidden;
+}
+
+#video-player.active canvas.data-poster {
+  opacity: 1;
+  visibility: visible
+}
+
+#video-player {
+  background: transparent!important;
+  overflow: hidden;
+  margin-bottom: -1px;
+}
+/*end*/
