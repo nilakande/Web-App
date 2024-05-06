@@ -1111,7 +1111,8 @@ ul {
   .menu .menu__inner .menu__item.menu__dropdown:hover>.submenu {
     opacity: 1;
     visibility: visible;
-    top: 95%;
+    /* by akb */
+    /* top: 96%; */
   }
 }
 
@@ -1155,9 +1156,9 @@ ul {
 .submenu {
   position: absolute;
   z-index: 100;
-  top: 110%;
+  /* top: 110%; */
   width: 100%;
-   border-radius: 0.25rem;
+   
   border-top: 2px solid var(--color);
   background-color: #4cadc2;
   box-shadow: var(--shadow-medium);
@@ -1221,9 +1222,10 @@ ul {
   .submenu.megamenu__image {
     display: flex;
     flex-wrap: wrap;
-    max-width: 14%;
+    /* max-width: 14%; */
+    max-width: 142px;
     height: auto;
-    margin: 0 auto;
+    margin-left:6px;
   }
 }
 
@@ -1302,10 +1304,12 @@ ul {
   display: block;
   line-height: 1;
   margin: 0 auto;
+  border-bottom: 1px solid #fff;
 }
 
 .submenu .submenu__list li a {
   display: inline-block;
+  /*by akb*/
   padding: 10px 0;
   line-height: 1.4;
   text-transform: capitalize;
