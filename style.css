@@ -300,6 +300,13 @@ h5 {
 }
 
 /* Custom CSS for full-width image container */
+.full-width{
+  padding: 20px 5px 5px 10px;
+}
+.full-width p{
+  font-size: 30px;
+  font-weight: 0;
+}
 .full-width-image {
   position: relative;
   height: 300px;
