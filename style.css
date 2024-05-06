@@ -1,5 +1,7 @@
 @charset "UTF-8";
-
+*{
+  font-family: "League Spartan", sans-serif;
+}
 nav {
   margin: auto;
   display: flex;
@@ -92,24 +94,30 @@ header.masthead h1 {
 
 .slider .img-box {
   line-height: 1.5;
-  padding: 45px 0px;
+  /* padding: 45px 0px; */
   color: #fff;
-  text-align: center;
-  width: 439px;
+  /* text-align: center; */
+  width: 400px;
+  padding:30px 5px;
+  height: 100%;
 }
 
 .img-box p {
-  font-size: 25px;
+  font-size: 23px;
+  padding-top:15px;
 }
 
 #dwoload {
   text-decoration: none;
   background: #D15E7D;
   border: none;
-  padding: 15px 67px;
-  border-radius: 20px;
+  padding: 15px 50px;
+  border-radius: 15px;
   color: #fff;
   margin: auto;
+  text-align: center;
+  font-size: 18px;
+  width: 230px;
   /*display: flex;*/
 }
 
@@ -286,8 +294,9 @@ h5 {
   width: 205px;
   margin: 20px;
   padding: 10px;
-  border-radius: 40px;
+  border-radius: 15px;
   color: #fff;
+  text-align: center;
 }
 
 /* Custom CSS for full-width image container */
