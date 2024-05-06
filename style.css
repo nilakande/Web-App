@@ -1081,7 +1081,7 @@ ul {
 }
 
 .menu .menu__inner .menu__item:hover>.menu__link {
-  color: var(--color);
+  color:#fff;
 }
 
 .darkmode .menu .menu__inner .menu__item:hover>.menu__link {
@@ -1153,7 +1153,7 @@ ul {
   width: 100%;
    border-radius: 0.25rem;
   border-top: 2px solid var(--color);
-  background-color: #fff;
+  background-color: #4cadc2;
   box-shadow: var(--shadow-medium);
   opacity: 0;
   visibility: hidden;
@@ -1303,12 +1303,13 @@ ul {
   padding: 10px 0;
   line-height: 1.4;
   text-transform: capitalize;
-  color: #000;
+  color: #fff;
   transition: all 0.25s ease-in-out;
+   text-decoration: none;
 }
 
 .submenu .submenu__list li a:hover {
-  color: var(--color);
+  color:#fff;
 }
 
 @media (max-width: 766px) {
@@ -1322,7 +1323,7 @@ ul {
 }
 
 .darkmode .submenu .submenu__list li a:hover {
-  color: var(--color);
+  color: #fff;
 }
 
 .switch {
@@ -1496,7 +1497,9 @@ ul {
     width: 56px;
     margin-top: -51px;
   }
-
+.navbar .navbar__left {
+    flex: 0%;
+}
   .headimg p {
     font-size: 12px;
   }
@@ -1555,6 +1558,19 @@ ul {
   .Applebtn {
     display: inline-grid;
   }
+.navbar .navbar__left {
+    flex: 0 0 0%;
+}
+.form-control {
+    display: block;
+    width: 80%;
+}
+.contact h3 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 22px;
+    font-family: "League Spartan", sans-serif;
+}
 }
 /*For contact form */
 .contact{
