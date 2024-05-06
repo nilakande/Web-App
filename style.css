@@ -671,8 +671,16 @@ ul {
 }
 
 /*End*/
-#feominput button,
-input {
+#feominput button {
+  background-color: #F2F2F2;
+  padding-left: 16px;
+  width: 382px;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 10px;
+}
+#feominput input {
   background-color: #F2F2F2;
   padding-left: 16px;
   width: 382px;
@@ -1721,3 +1729,9 @@ input {
   border-radius: 10px;
 }
 /*End*/
+/*for task 2*/
+.task-project-options label{
+  padding:0px 10px;
+  margin:0px 10px;
+}
+/*end*/
