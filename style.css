@@ -1651,3 +1651,24 @@ input {
   cursor: pointer;
 }
 /*End*/
+/*music play*/
+.music-play{
+  padding: 10px 5px;
+  margin:20px 0px;
+}
+.music-play h3{
+  text-align: center;
+  font-weight: 600;
+  font-size:45px;
+  font-family: "League Spartan", sans-serif;
+}
+.music-play p{
+  text-align: center;
+  font-weight: 400;
+  font-size:25px;
+  font-family: "League Spartan", sans-serif;
+}
+.music-play .music-image-container{
+  padding: 10px 0px;
+}
+/*end*/
