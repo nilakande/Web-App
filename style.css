@@ -340,17 +340,47 @@ h5 {
   position: relative;
   height: 427px;
   background-image: url('./image/Rectangle 390.png');
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   color: white;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 30px;
+  border-radius: 15px;
   margin: 50px 0px;
+  background-repeat: no-repeat;
 }
-
+.full-width-image10 {
+  position: relative;
+  height: 427px;
+  background-image: url('./image/movement-video2.png');
+  background-size: contain;
+  background-position: center;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  margin: 50px 0px;
+  background-repeat: no-repeat;
+}
+.full-width-image11 {
+  position: relative;
+  height: 427px;
+  background-image: url('./image/movement-video3.png');
+  background-size:contain;
+  background-position: center;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  margin: 50px 0px;
+  background-repeat: no-repeat;
+}
 .full-width-image3 {
   /* position: relative; */
   /* height: 250px; */
