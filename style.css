@@ -740,8 +740,8 @@ ul {
 
 .ultimate {
   background: #D15E7D;
-  padding: 80px;
-  border-radius: 68px;
+  padding: 30px;
+  border-radius: 15px;
   color: #fff;
   margin-bottom: 50px;
   margin-top: 50px;
@@ -757,7 +757,7 @@ ul {
   background: #D15E7D;
   border: none;
   padding: 10px 80px;
-  border-radius: 30px;
+  border-radius: 15px;
   margin-top: 40px;
   margin-bottom: 50px;
   display: flex;
@@ -1754,5 +1754,10 @@ ul {
 .task-project-options label{
   padding:0px 10px;
   margin:0px 10px;
+}
+/*end*/
+/* music selection*/
+.testimonial-item img {
+  width: 250px;
 }
 /*end*/
